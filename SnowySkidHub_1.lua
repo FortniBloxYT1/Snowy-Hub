@@ -20,7 +20,6 @@ for i, v in pairs(game.CoreGui:GetChildren()) do
 	end
 end
 
--- Warning! skidded shit, don't forget to bleach your eyes
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local Library = library.new("Snowy Hub")
 game:service("Players").LocalPlayer.Idled:connect(function()
