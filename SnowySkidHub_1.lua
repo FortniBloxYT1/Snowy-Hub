@@ -11,7 +11,7 @@ mt.__newindex = newcclosure(function(self, k, v)
     setreadonly(mt, true)
 end;
 
-if not game:IsLoaded() then -- Main shit 
+if not game:IsLoaded() then
 game.Loaded:Wait()
 end
 for i, v in pairs(game.CoreGui:GetChildren()) do
